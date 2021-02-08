@@ -57,7 +57,7 @@ public class AutoCalc {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@id='sciOutPut']")).sendKeys("23094823");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//span[contains(text(),'±']")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'±')]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[contains(text(),')')]")).click();
 		Thread.sleep(2000);
